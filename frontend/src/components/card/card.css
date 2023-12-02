@@ -1,0 +1,16 @@
+.image{
+    border-radius: 4%;
+    }
+    .card{
+        border-radius: 4%;
+    }
+.row{
+    display: flex;
+}
+.text{
+    font-size: smaller;
+}
+
+.image{
+    margin-top: 5px;
+}

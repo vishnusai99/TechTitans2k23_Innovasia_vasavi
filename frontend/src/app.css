@@ -1,0 +1,26 @@
+.scrollable-container {
+    overflow-x: auto;
+    /* or overflow-x: scroll; */
+    /* white-space: nowrap; */
+    /* Prevents items from wrapping to the next line */
+}
+
+.container {
+    display: inline-flex;
+    /* Ensures items are in a row */
+}
+
+.item {
+    width: 1000px;
+    /* Adjust as needed for spacing between items */
+}
+
+.banner {
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
